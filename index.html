@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes App</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <app-bar></app-bar>
+    <note-form></note-form>
+    <div id="notesContainer" class="grid-container"></div>
+    <div id="loadingIndicator" style="display:none;">Loading...</div>
+    <note-detail-modal></note-detail-modal>
+
+    <script src="script/component/notesData.js" defer></script>
+    <script src="script/component/noteItem.js" defer></script>
+    <script src="script/component/noteForm.js" defer></script>
+    <script src="script/component/appBar.js" defer></script>
+    <script src="script/component/noteDetail.js" defer></script>
+    <script src="script/app.js" defer></script>
+
+
+</body>
+</html>
